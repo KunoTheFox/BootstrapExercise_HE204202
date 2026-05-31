@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand text-secondary" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Navbar</a>
             
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -22,8 +22,8 @@
                 </ul>
                 
                 <form class="d-flex">
-                    <input class="form-control me-2 rounded-0" type="search" placeholder="Search">
-                    <button class="btn btn-outline-primary rounded-0" type="submit">Search</button>
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -38,40 +38,64 @@
         
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="d-flex justify-content-center align-items-center bg-secondary text-white" style="height: 400px;">
-                    <h1 class="display-1 fw-bold opacity-50">1920 x 530</h1>
+                <div class="d-flex opacity-50 justify-content-center align-items-center bg-secondary text-white" style="height: 400px">
+                    <h1 class="display-1 fw-bold">1920 x 530</h1>
                 </div>
             </div>
         </div>
         
-        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
         </button>
     </div>
 
-    <div class="container mt-5 mb-5">
+    <div class="container my-5">
         
-        <div class="mb-4">
-            <h3 class="text-secondary fw-light mb-0">NEW PRODUCT</h3>
-            <small class="text-muted">List product description</small>
+        <div class="mb-3">
+            <h3 class="text-secondary fw-light">NEW PRODUCT</h3>
+            <small class="fw-light">List product description</small>
         </div>
 
         <div class="row">
             
             <div class="col-md-3 mb-4">
                 <div class="card rounded-0">
-                    <div class="bg-secondary bg-opacity-25 d-flex justify-content-center align-items-center" style="height: 250px;">
+                    <div class="bg-secondary bg-opacity-25 d-flex justify-content-center align-items-center" style="height: 250px">
                         <h4 class="text-secondary opacity-50">280 x 280</h4>
                     </div>
+
                     <div class="card-body">
                         <p class="card-title text-secondary mb-1">Product</p>
                         <div class="d-flex justify-content-between align-items-center mb-3">
-                            <del class="text-muted" style="font-size: 14px;">100.000 vnd</del>
-                            <span class="text-warning" style="font-size: 14px;">80.000 vnd</span>
+                            <del class="text-muted" style="font-size: 14px">100.000 vnd</del>
+                            <span class="text-warning" style="font-size: 14px">80.000 vnd</span>
                         </div>
+
+                        <div class="btn-group w-100">
+                            <button class="btn btn-secondary">&#128722;</button>
+                            <button class="btn btn-outline-secondary rounded-0 text-dark">Xem chi tiết</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card rounded-0">
+                    <div class="bg-secondary bg-opacity-25 d-flex justify-content-center align-items-center" style="height: 250px">
+                        <h4 class="text-secondary opacity-50">280 x 280</h4>
+                    </div>
+                    
+                    <div class="card-body">
+                        <p class="card-title text-secondary mb-1">Product</p>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <del class="text-muted" style="font-size: 14px">100.000 vnd</del>
+                            <span class="text-warning" style="font-size: 14px">80.000 vnd</span>
+                        </div>
+
                         <div class="btn-group w-100">
                             <button class="btn btn-secondary rounded-0">&#128722;</button>
                             <button class="btn btn-outline-secondary rounded-0 text-dark">Xem chi tiết</button>
@@ -82,38 +106,23 @@
 
             <div class="col-md-3 mb-4">
                 <div class="card rounded-0">
-                    <div class="bg-secondary bg-opacity-25 d-flex justify-content-center align-items-center" style="height: 250px;">
+                    <div class="bg-secondary bg-opacity-25 d-flex justify-content-center align-items-center" style="height: 250px">
                         <h4 class="text-secondary opacity-50">280 x 280</h4>
                     </div>
-                    <div class="card-body">
-                        <p class="card-title text-secondary mb-1">Product</p>
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <del class="text-muted" style="font-size: 14px;">100.000 vnd</del>
-                            <span class="text-warning" style="font-size: 14px;">80.000 vnd</span>
-                        </div>
-                        <div class="btn-group w-100">
-                            <button class="btn btn-secondary rounded-0">&#128722;</button>
-                            <button class="btn btn-outline-secondary rounded-0 text-dark">Xem chi tiết</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-md-3 mb-4">
-                <div class="card rounded-0">
-                    <div class="bg-secondary bg-opacity-25 d-flex justify-content-center align-items-center" style="height: 250px;">
-                        <h4 class="text-secondary opacity-50">280 x 280</h4>
-                    </div>
                     <div class="card-body">
+
                         <p class="card-title text-secondary mb-1">Product</p>
                         <div class="d-flex justify-content-between align-items-center mb-3">
-                            <del class="text-muted" style="font-size: 14px;">100.000 vnd</del>
-                            <span class="text-warning" style="font-size: 14px;">80.000 vnd</span>
+                            <del class="text-muted" style="font-size: 14px">100.000 vnd</del>
+                            <span class="text-warning" style="font-size: 14px">80.000 vnd</span>
                         </div>
+
                         <div class="btn-group w-100">
                             <button class="btn btn-secondary rounded-0">&#128722;</button>
                             <button class="btn btn-outline-secondary rounded-0 text-dark">Xem chi tiết</button>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -123,15 +132,17 @@
                     
                     <span class="badge bg-warning position-absolute top-0 end-0 rounded-0 p-2 fs-6">Sale</span>
                     
-                    <div class="bg-secondary bg-opacity-25 d-flex justify-content-center align-items-center" style="height: 250px;">
+                    <div class="bg-secondary bg-opacity-25 d-flex justify-content-center align-items-center" style="height: 250px">
                         <h4 class="text-secondary opacity-50">280 x 280</h4>
                     </div>
                     <div class="card-body">
+
                         <p class="card-title text-secondary mb-1">Product</p>
                         <div class="d-flex justify-content-between align-items-center mb-3">
                             <del class="text-muted" style="font-size: 14px;">100.000 vnd</del>
                             <span class="text-warning" style="font-size: 14px;">80.000 vnd</span>
                         </div>
+                        
                         <div class="btn-group w-100">
                             <button class="btn btn-secondary rounded-0">&#128722;</button>
                             <button class="btn btn-outline-secondary rounded-0 text-dark">Xem chi tiết</button>
